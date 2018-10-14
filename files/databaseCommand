@@ -1,0 +1,57 @@
+create good good database studentregistration;
+
+
+CREATE TABLE students(
+	user_first varchar(50),
+    user_last varchar(50),
+    user_email varchar(50),
+    user_adno varchar(50),
+    user_pwd  varchar(50),
+    user_branch varchar(50),
+    user_phone int
+);
+
+
+CREATE TABLE compulsorysubject(
+	branch varchar(30),
+    subject1 varchar(30),
+    subject2 varchar(30),
+    subject3 varchar(30),
+    subject4 varchar(30)
+);
+
+INSERT into compulsorysubject values('Computer Engineering','Design and Analysis of Algorithm','Microprocessor Interface Theory','Artificial Intelligence and Machine Laerning','Computer Networks');
+
+INSERT into compulsorysubject values('Chemical Engineering','Chemical Engineering
+Thermodynamics-I','Heat Transfer
+Operations','Mass Transfer
+Operations-I',' Mechanical
+Operations');creatgoode database studentregistration;
+
+
+CREATE TABLE students(
+	user_first varchar(50),
+    user_last varchar(50),
+    user_email varchar(50),
+    user_adno varchar(50),
+    user_pwd  varchar(50),
+    user_branch varchar(50),
+    user_phone int
+);
+
+
+CREATE TABLE compulsorysubject(
+	branch varchar(30),
+    subject1 varchar(30),
+    subject2 varchar(30),
+    subject3 varchar(30),
+    subject4 varchar(30)
+);
+
+INSERT into compulsorysubject values('Computer Engineering','Design and Analysis of Algorithm','Microprocessor Interface Theory','Artificial Intelligence and Machine Laerning','Computer Networks');
+
+INSERT into compulsorysubject values('Chemical Engineering','Chemical Engineering
+Thermodynamics-I','Heat Transfer
+Operations','Mass Transfer
+Operations-I',' Mechanical
+Operations');

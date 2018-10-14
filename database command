@@ -1,0 +1,5 @@
+CREATE database filemanagement;
+
+CREATE table files(
+	f_name varchar(50)
+);

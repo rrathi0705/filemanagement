@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.fieldsetalign{
+    border-radius: 25px; 
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3.5px solid #4CAF50;
+}
+legend{
+    font-size: 35px;
+    color:black;
+    padding: 5px;
+}
+.tableset{
+    width: 90%;
+}
+
+label{
+    font-size: 20px;
+    color: #123;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+    padding:5px;
+    margin-bottom:7px;
+    margin-top:7px;
+    margin-left: 15px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+}
+input[type="text"]:hover,input[type="password"]:hover,input[type="email"]:hover{
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    background-color: lightgray;
+    
+}
+
+.select select{
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid #4CAF50;
+    width: 300px;
+    background-color: #fff;
+    margin-left: 15px;
+
+}
+.center-button{
+    margin-left: 70px;
+}
+button{
+    padding: 5px;
+    border: 3px solid blue;
+    border-radius: 4px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+.head{
+    height: 110px;
+    background-color: #f32;
+}
+.head h1{
+    color: #fff;
+}
+.head img{
+    float: right;
+    margin-top: -38px;
+}

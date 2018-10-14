@@ -1,0 +1,54 @@
+*{
+	margin:0px;
+}
+.head{
+    height: 120px;
+    background-color: #f32;
+}
+.head h1{
+	padding-top: 3%;
+    color: #fff;
+}
+.head img{
+    float: right;
+    margin-top: -70px;
+}
+.icons{
+	height: 34px;
+	background-color: #423;
+	color: #fff;
+	margin: 0px;
+	padding: 0;
+}
+.icons ul{
+	padding: 0px;
+}
+.icons ul li{
+	float: left;
+	list-style: none;
+}
+a {
+    color: #fff;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+}
+a:active{
+	background-color: yellow;
+}
+.icons ul li:hover{
+	background-color: orange;
+	color: blue;
+}
+body{
+	background-color: #ffd;
+}
+fieldset{
+	width: 700px;
+}
+legend{
+	color: blue;
+	font-size: 30px;
+}
